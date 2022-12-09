@@ -1,17 +1,17 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
- * main - entry block
- * 
- * Return: 0
- **/
+*main - Prints all single digits of base 10 followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
-	int i = 0;
+	int digit;
 
-	while (i < 10)
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		putchar(i % 10 + '0');
-		i++;
+		putchar(digit);
 	}
 	putchar('\n');
 	return (0);
