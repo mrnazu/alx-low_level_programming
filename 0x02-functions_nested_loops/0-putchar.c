@@ -1,16 +1,15 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - print _putchare
- * @void: no argument
- * Return: meas sucess
+ * Return: means success
  */
 int main(void)
 {
 	char hacker[] = "_putchar";
 
-	int n;
+	int c;
 
-	for (c = 0; c < 8; n++)
+	for (c = 0; c < 8; c++)
 	{
 		_putchar(hacker[c]);
 	}
